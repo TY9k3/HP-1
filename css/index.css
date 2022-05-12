@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+.section {
+  margin-top: 200px;
+}
+
+
+.top_title {
+  position: absolute;
+  color: #ffffff;
+  font-size: 30px;
+  background-color: #002baa;
+  z-index: 2;
+  top: 50%;
+  right: 0;
+  padding: 20px 10%;
+}
+
+
+.about_inner {
+  position: relative;
+  height: 1200px;
+}
+
+.about_contents {
+  background-color: rgb(207, 203, 203);
+  margin: 10% 10%;
+  padding: 5%;
+  color: rgb(54, 54, 54);
+  position: absolute;
+  z-index: 3;
+}
+
+.about_contents .contents_title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.about_contents .content h3 {
+  font-size: 25px;
+  line-height: 27px;
+  text-align: center;
+  margin: 35px 0 10px;
+}
+
+.about_contents .content p {
+  text-align: center;
+}
+
+.about_inner img {
+  width: 100%;
+  position: absolute;
+  top: 600px;
+  z-index: 2;
+}
+
+
+.products_inner {
+  position: relative;
+  height: 1200px;
+  background-color: #d7d7d7;
+  padding-top: 30px;
+}
+
+.products {
+  position: absolute;
+  width: 60%;
+  right: 50px;
+  top: 200px;
+}
+
+.products_inner .products_img {
+  position: absolute;
+  top: 400px;
+  left: -30px;
+}
+
+.product_content img {
+  width: 200px;
+  border: solid 2px black;
+  margin: 30px;
+  height: 170px;
+}
+
+.product_content {
+  display: flex;
+  background-color: #fff;
+}
+
+.introduction {
+  margin: 30px;
+  margin-left: 0;
+}
+
+.introduction h2 {
+  font-size: 30px;
+}
+
+.product_content p {
+  font-size: 16px;
+}
+
+.products .btn1 {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 30px 0;
+}
+
+.products .btn1 a {
+  background-color: #fbff92;
+  font-size: 30px;
+  padding: 20px 40px;
+  border: #222 solid 1px;
+  border-radius: 10px;
+}
+
+.products .btn1 a:hover {
+  background-color: blue;
+  color: #fff;
+}
+
+.event_inner h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+.ivent_contents {
+  display: flex;
+  justify-content: center;
+}
+
+.ivent_contents {
+  margin: 30px 0 90px;
+}
+
+.ivent_content a {
+  margin: 40px 20px;
+  overflow: hidden;
+  display: inline-block;
+  width: 300px;
+  height: 60%;
+}
+
+.ivent_content img {
+  transition-duration: .5s;
+}
+
+.ivent_content img:hover {
+  transform: scale(1.2);
+}
+
+.text {
+  position: relative;
+  top: -25px;
+  left: 23px;
+}
+
+.text h3 {
+  font-size: 20px;
+}
+
+.ivent_content img {
+  width: 300px;
+  height: 100%;
+}
+
+.event_inner .btn2 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.event_inner .btn2 a {
+  background-color: #ff9900;
+  padding: 20px 40px;
+}
+
+.event_inner .btn2 a:hover {
+  background-color: blue;
+  color: #fff;
+}
+
+
+
